@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trip Planner</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="./style.css"></link>
+    <script src="./bundle.js" defer></script>
+  </head>
+  <body>
+      <header>
+        <nav>
+          <div class="nav-item">
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-item">
+            <a href="#">About</a>
+          </div>
+          <div class="nav-item">
+            <a href="#">Contact</a>
+          </div>
+        </nav>
+      </header>
+      <div class='flex-container'>
+          <div class='options'>
+              <h3>Hotel</h3>
+              <select name='hotels'>
+                <option value=''>Option</option>
+              </select>
+              <button type='submit'>X</button>
+              <h3>Restaurants</h3>
+              <select name='Restaurants'>
+                <option value=''>Option</option>
+              </select>
+              <button type='submit'>X</button>
+              <h3>Things to do</h3>
+              <select name='Things to do'>
+                  <option value=''>Option</option>
+              </select>
+              <button type='submit'>X</button>
+            </div>
+            <div class='itinerary'>
+                <h3>My Hotel</h3>
+                <ul>
+                  <li></li>
+                </ul>
+                <button type='submit'>X</button>
+                <h3>My Restaurants</h3>
+                <ul>
+                  <li></li>
+                </ul>
+                <button type='submit'>X</button>
+                <h3>My Activities</h3>
+                <ul>
+                  <li></li>
+                </ul>
+                <button type='submit'>X</button>
+            </div>
+            <div id="map"></div>
+            </div>
+      </div>
+  </body>
+</html>

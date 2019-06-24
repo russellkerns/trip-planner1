@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+nav{
+  display: flex;
+  background-color: red;
+  height: 45px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.options{
+  justify-self: right;
+  align-content: space-between;
+  margin-bottom: -30px;
+  height: 150px;
+}
+
+.itinerary{
+  margin-bottom: 200px;
+}
